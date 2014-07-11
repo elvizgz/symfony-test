@@ -1,0 +1,12 @@
+#ejemplo:
+#    path:     /
+#    defaults: { _controller: EjemploBundle:Ejemplo:index }
+#prueba_new:
+#    path:     /new
+#    defaults: { _controller: EjemploBundle:Ejemplo:new }
+#prueba_view:
+#    path:     /view/{id}
+#    defaults: { _controller: EjemploBundle:Ejemplo:view }
+#prueba_edit:
+#    path:     /edit/{id}
+#    defaults: { _controller: EjemploBundle:Ejemplo:edit }

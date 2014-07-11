@@ -1,0 +1,7 @@
+parameters:
+#    ejemplo.example.class: SymfonyZgz\EjemploBundle\Example
+
+services:
+#    ejemplo.example:
+#        class: %ejemplo.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
