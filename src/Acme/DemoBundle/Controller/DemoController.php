@@ -53,4 +53,14 @@ class DemoController extends Controller
 
         return array('form' => $form->createView());
     }
+    
+	public function topArticlesAction($num)
+    {
+        // look for the $num most popular articles in the database
+        $articles = array('Artículo 1', 'Artículo 2', 'Artículo 3');
+
+        return $this->render('AcmeDemoBundle:Demo:topArticles.html.twig', array(
+            'articles' => $articles,
+        ));
+    }
 }
